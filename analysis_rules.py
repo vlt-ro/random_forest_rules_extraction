@@ -22,6 +22,6 @@ if ds == 'iris':
 
 
 elif ds == 't1d_pa':
-    df_rules = pd.read_csv('rules_T1D_PA.csv')
+    df_rules = pd.read_csv('results/rules_T1D_PA.csv')
     print(len(df_rules))
     print(df_rules.loc[250].dropna())
